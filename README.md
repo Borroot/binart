@@ -1,5 +1,5 @@
 # Binart
-Binairo puzzles which resemble art when solved! See the Mona Lisa example below. Any picture can be given as an input and the program will find the binairo puzzle which resembles the picture _the most_. This is achieved by setting constraints and a maximization function for this goal within Google's OR-tools library.
+Binairo puzzles which resemble art when solved! See the Mona Lisa example below. Any picture can be given as an input and the program will find the binairo puzzle which resembles the picture _the most_. This is achieved by converting the problem to a linear program. The rules of binairo are set as constraints and we maximize on picture resemblance.
 
 <img src="https://github.com/Borroot/binart/blob/master/misc/showcase_final.png" width="400" height="520">
 
